@@ -12,7 +12,6 @@ import './index.css'
 globalThis.Buffer = Buffer
 
 const queryClient = new QueryClient()
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <WagmiProvider config={config}>
